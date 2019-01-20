@@ -111,9 +111,12 @@ a {
     left: 50%;
     bottom: 0;
     position: absolute;
-    width: 100px;
+    >-----width: 100px; <-----
     height: 1px;
-    background: #000; }
+    >---background: #000; <----
+    background: rgba(0, 0, 0, 0.2);
+    width: 75%; 
+  }
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
