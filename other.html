@@ -43,7 +43,7 @@
 
 
 
-    <header class="site-navbar py-3" role="banner">
+    <header class="site-navbar py-3 border-bottom" role="banner">
 
       <div class="container-fluid">
         <div class="row align-items-center">
@@ -55,17 +55,15 @@
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="has-children">
+                <li><a href="index.html">Home</a></li>
+                <li class="has-children active">
                   <a href="single.html">Gallery</a>
                   <ul class="dropdown">
                     <li><a href="single.html">Landscape</a></li>
                     <li><a href="wildlife.html">Wildlife</a></li>
                     <li><a href="other.html">Other</a></li>
-                    
                    
                    
-                    
                   </ul>
                 </li>
                 
@@ -88,48 +86,59 @@
 
 
 
-  <div class="container-fluid" data-aos="fade" data-aos-delay="500">
-    <div class="swiper-container images-carousel">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <h2 class="mb-3">Landscape</h2>
-                  <a href="single.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
-                </div>
-                <img src="images/LongExposureBW-1080x.jpg" alt="Image">
-              </div>
+  <div class="site-section"  data-aos="fade">
+    <div class="container-fluid">
+      
+      <div class="row justify-content-center">
+        
+        <div class="col-md-7">
+          <div class="row mb-5">
+            <div class="col-12 ">
+              <h2 class="site-section-heading text-center">Other Gallery</h2>
             </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <h2 class="mb-3">Wildlife</h2>
-                  <a href="wildlife.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
-                </div>
-                <img src="images/spiderarmcrossed-1650x.jpg" alt="Image">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="image-wrap">
-                <div class="image-info">
-                  <h2 class="mb-3">Other</h2>
-                  <a href="other.html" class="btn btn-outline-white py-2 px-4">More Photos</a>
-                </div>
-                <img src="images/Glasses-All3-Flowers.jpg" alt="Image">
-              </div>
-            
-            </div>
+          </div>
+        </div>
+    
+      </div>
+      <div class="row" id="lightgallery">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/Glasses-All3-Flowers.jpg" data-sub-html="<h4>Website Product Image</h4><p>Jackie Martin Designs</p>">
+          <a href="#"><img src="images/Glasses-All3-Flowers.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/Anna+Kindle.jpg" data-sub-html="<h4>Website Product Image</h4><p>Jackie Martin Designs</p>">
+          <a href="#"><img src="images/Anna+Kindle.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/Dogpencilcase.jpg" data-sub-html="<h4>Website Product Image</h4><p>Jackie Martin Designs</p>">
+          <a href="#"><img src="images/Dogpencilcase.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/StrawberryG-1650x.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis quae iusto omnis praesentium labore tempore eligendi quo corporis sapiente.</p>">
+          <a href="#"><img src="images/StrawberryG-1650x.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/Strawberry-Mess.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatum voluptate tempore aliquam, dolorem distinctio. In quas maiores tenetur sequi.</p>">
+          <a href="#"><img src="images/Strawberry-Mess.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/Fireman-1080x.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum culpa blanditiis illum, voluptatum iusto quisquam mollitia debitis quaerat maiores?</p>">
+          <a href="#"><img src="images/Fireman-1080x.jpg" alt="IMage" class="img-fluid"></a>
         </div>
 
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar"></div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/JoshTrans-1080x.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique impedit possimus, laboriosam enim at placeat nihil voluptatibus voluptate hic!</p>">
+          <a href="#"><img src="images/JoshTrans-1080x.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/heart-1650x.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vitae sed cum mollitia itaque soluta laboriosam eaque sit ratione, aliquid.</p>">
+          <a href="#"><img src="images/heart-1650x.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_9.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis debitis beatae facilis quos, enim quis nobis magnam architecto earum!</p>">
+          <a href="#"><img src="images/nature_small_9.jpg" alt="IMage" class="img-fluid"></a>
+        </div>
+
+        
+      </div>
+
+      </div>
     </div>
   </div>
 
   <div class="footer py-4">
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
       <p>
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
